@@ -17,7 +17,6 @@ Program received signal SIGSEGV, Segmentation fault.
 0x00007ffff7a9c4d2 in memcpy () from /lib/x86_64-linux-gnu/libc.so.6
 #0  0x00007ffff7a9c4d2 in memcpy () from /lib/x86_64-linux-gnu/libc.so.6
 #1  0x000000000040127b in parseMetadata () at utils.c:30
-    size_t size = 4096;
     char *buffer = (char *)malloc(size);
     void *readme_addr = (void *)0xffff880000001000;
     memcpy(buffer, readme_addr, size); 
