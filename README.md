@@ -16,14 +16,14 @@ Here are some ideas to get you started:
 Program received signal SIGSEGV, Segmentation fault.
 0x00007ffff7a9c4d2 in memcpy () from /lib/x86_64-linux-gnu/libc.so.6
 #0  0x00007ffff7a9c4d2 in memcpy () from /lib/x86_64-linux-gnu/libc.so.6
-#1  0x000000000040127b in read_ops () at utils.c:30
+#1  0x000000000040127b in parseMetadata () at utils.c:30
     char buffer[2048];
     void *readme_addr = (void *)0xffff880000001000;
     memcpy(buffer, readme_addr, size); 
-#2  0x000000000040134f in perform_ops () at operations.c:22
-    read_ops();
+#2  0x000000000040134f in load_app_resources () at operations.c:22
+    parseMetadata();
 #3  0x0000000000401432 in init () at appinit.c:18
-    perform_ops();
+    load_app_resources();
 #4  0x0000000000401520 in main () at main.c:10
     init();
 ```
