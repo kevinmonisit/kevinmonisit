@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/user/ffb4629d-c3f6-40ab-b8d4-0321e1f055b5.svg)](https://wakatime.com/@ffb4629d-c3f6-40ab-b8d4-0321e1f055b5)
 <!--
 **kevinmonisit/kevinmonisit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
