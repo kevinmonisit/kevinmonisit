@@ -13,7 +13,7 @@ HTTP POST? Does that update an item? Add? What does UPDATE do? Does that UPDATE 
 
 Are there any performance differences between these HTTP verbs? Is one verb easier to load balance then another? Why?
 
-Are there are any security differences? Do certain verbs get different treatment in QoS routing? Are HTTP verbs similar in metadata/header size?
+Are there are any security differences? Do certain verbs get different priority levels in QoS routing? Are HTTP verbs similar in metadata/header size?
 
 Then, this rabbit hole may lead you to understand how HTTP endpoints ought to be constructed. Often, the same boastful "false experts" make endpoints such as POST "/update_user", which undermines the idea of REST APIs/HTTP verbs. If you do this, I don't hope to offend! Maybe I'm wrong. Or maybe you have your own reasons.
 
