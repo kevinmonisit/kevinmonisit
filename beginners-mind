@@ -2,23 +2,6 @@
 
 Shunryo Suzuki
 
-
-You are in an undergraduate course for internet technology. You've spent hundreds of hours building full-stack applications. You've had several internships. The professor begins to go over HTTP requests, routers, endpoints, etc. You think to yourself, "I already know this." You begin to feel a sense of pride when other students ask questions you deem too simple.
-
-Unfortunately, you've fooled yourself. When you casually dismiss ideas because you've placed yourself so high on a pedestal, you only hurt yourself. Not only will you not find fulfillment with this manner of thinking, you are severely limiting your potential.
-
-Let's start with an example. HTTP POST. For some, they'll say that this "posts" data to the database, possibly updating an item. Some may say it adds a new item. However, it is all up to the server on how it deals with certain HTTP verbs. If you falsely claim to yourself that you're an expert on this matter, you will simply skim over this. However, if you approach this concept with a beginner's mindset, you'll ask more deeply. You'll question your assumptions. You'll be more willing to change your opinions, accept opposing ones, and not feel offended.
-
-HTTP POST? Does that update an item? Add? What does UPDATE do? Does that UPDATE an item in the database? In what way is that different from PUT and POST? And DELETE verb. What about PUT? PUT vs POST vs UPDATE vs DELETE? If UPDATE updates, then what does PATCH do?
-
-Are there any performance differences between these HTTP verbs? Is one verb easier to load balance then another? Why?
-
-Are there are any security differences? Do certain verbs get different priority levels in QoS routing? Are HTTP verbs similar in metadata/header size?
-
-Then, this rabbit hole may lead you to understand how HTTP endpoints ought to be constructed. Often, the same boastful "false experts" make endpoints such as POST "/update_user", which undermines the idea of REST APIs/HTTP verbs. If you do this, I don't hope to offend! Maybe I'm wrong. Or maybe you have your own reasons.
-
-But anyways, this article isn't about REST API standards. This little post is about how and why you should always approach new AND old concepts with a beginner's mindset. When you do, every class is a chance to learn something new. Every person you meet is an opportunity to see your own ideas from another perspective.
-
 When you see things from a beginner's mindset, when you drop all ego, everything feels new and exciting. Most importantly... fun!
 
 Zen/Doaism Philosophy Readings:
